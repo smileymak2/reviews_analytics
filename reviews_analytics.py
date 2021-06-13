@@ -22,3 +22,10 @@ print(new[0])
 print('共有', len(new[0]), '字母')
 print(new[5])
 print('共有', len(new[5]), '字母')
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('一共有', len(good), '筆留言含有good')
+print(good[0])
